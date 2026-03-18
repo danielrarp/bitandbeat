@@ -19,9 +19,9 @@
 
 <nav>
 <a href="#">Inicio</a>
-<a href="#">Anime</a>
-<a href="#">Gym</a>
-<a href="#">Contacto</a>
+<a href="#dragonball">Dragon Ball</a>
+<a href="#pokemon">Pokémon</a>
+<a href="#calaveras">Calaveras</a>
 </nav>
 
 </header>
@@ -33,51 +33,89 @@
 <div class="hero-content">
 <h1>Streetwear Anime & Gym</h1>
 <p>Playeras oversized con diseños únicos 🔥</p>
-<button onclick="verColeccion()">Explorar colección</button>
-</div>
-
-</section>
-
-<section class="productos">
-
-<h2>Nuevos Drops</h2>
 <p style="color:#ff3c00; margin-bottom:20px;">
 🚀 Envíos a todo México | Stock limitado
 </p>
-<div class="grid">
+<button onclick="verColeccion()">Explorar colección</button>
+</div>
+</section>
 
+
+<section class="productos" id="dragonball">
+
+<h2>🔥 Dragon Ball Collection</h2>
+
+<div class="grid">
 
 <div class="card">
 <img src="img/playera1.jpg">
 <h3>Goku Ultra Instinto</h3>
 <p>$399 MXN</p>
-<a href="https://wa.me/5215630967067?text=Hola%20quiero%20la%20playera%20Goku%20Ultra%20Instinto" target="_blank">
-    <button>Comprar</button>
-</a>
+
+<select class="talla">
+<option value="">Selecciona talla</option>
+<option>S</option>
+<option>M</option>
+<option>L</option>
+<option>XL</option>
+</select>
+
+<button onclick="comprar('Goku Ultra Instinto', this)">Comprar</button>
+
 </div>
+
+</div>
+</section>
+<section class="productos" id="pokemon">
+
+<h2>⚡ Pokémon Collection</h2>
+
+<div class="grid">
 
 <div class="card">
 <img src="img/playera2.jpg">
-<h3>Vegeta Pride</h3>
+<h3>Pikachu Energy</h3>
 <p>$399 MXN</p>
-<a href="https://wa.me/521XXXXXXXXXX?text=Hola%20quiero%20la%20playera%20Goku%20Ultra%20Instinto" target="_blank">
-    <button>Comprar</button>
-</a>
+
+<select class="talla">
+<option value="">Selecciona talla</option>
+<option>S</option>
+<option>M</option>
+<option>L</option>
+<option>XL</option>
+</select>
+
+<button onclick="comprar('Pikachu Energy', this)">Comprar</button>
+
 </div>
+
+</div>
+</section>
+<section class="productos" id="calaveras">
+
+<h2>💀 Calaveras Collection</h2>
+
+<div class="grid">
 
 <div class="card">
 <img src="img/playera3.jpg">
-<h3>Gym Beast Mode</h3>
+<h3>Calavera Street</h3>
 <p>$349 MXN</p>
-<a href="https://wa.me/521XXXXXXXXXX?text=Hola%20quiero%20la%20playera%20Goku%20Ultra%20Instinto" target="_blank">
-    <button>Comprar</button>
-</a>
-</div>
+
+<select class="talla">
+<option value="">Selecciona talla</option>
+<option>S</option>
+<option>M</option>
+<option>L</option>
+<option>XL</option>
+</select>
+
+<button onclick="comprar('Calavera Street', this)">Comprar</button>
 
 </div>
 
+</div>
 </section>
-
 <a href="https://wa.me/521XXXXXXXXXX?text=Hola%20quiero%20información%20de%20playeras" 
    class="whatsapp" target="_blank">
 📲

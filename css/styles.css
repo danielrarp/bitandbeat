@@ -42,7 +42,7 @@ color:#ff3c00;
 /* HERO */
 .hero{
 height:100vh;
-background:url('../img/playera1.jpg') center/cover no-repeat;
+background:url('../img/IMG_3735.jpeg') center/cover no-repeat;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -119,6 +119,20 @@ box-shadow:0 0 20px rgba(255,60,0,0.3);
 width:100%;
 border-radius:10px;
 margin-bottom:10px;
+}
+select{
+width:100%;
+padding:10px;
+margin:10px 0;
+background:#000;
+color:white;
+border:1px solid #333;
+border-radius:5px;
+}
+
+select:focus{
+outline:none;
+border:1px solid #ff3c00;
 }
 
 /* WHATSAPP */
