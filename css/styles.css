@@ -96,12 +96,12 @@ margin-bottom:40px;
 }
 
 .grid{
-display:flex;
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 gap:30px;
-justify-content:center;
-flex-wrap:wrap;
+max-width:1200px;
+margin:0 auto;
 }
-
 .card{
 background:#111;
 padding:20px;
@@ -119,6 +119,28 @@ box-shadow:0 0 20px rgba(255,60,0,0.3);
 width:100%;
 border-radius:10px;
 margin-bottom:10px;
+}
+.color-options{
+display:flex;
+gap:10px;
+margin:10px 0;
+}
+
+.color{
+width:25px;
+height:25px;
+border-radius:50%;
+cursor:pointer;
+border:2px solid transparent;
+transition:0.3s;
+}
+
+.color:hover{
+transform:scale(1.2);
+}
+
+.color.selected{
+border:2px solid #fff;
 }
 select{
 width:100%;
