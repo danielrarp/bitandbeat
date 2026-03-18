@@ -1,5 +1,6 @@
 function verColeccion(){
-
-alert("Próximamente toda la colección 🔥");
-
+    window.scrollTo({
+        top: 600,
+        behavior: "smooth"
+    });
 }
