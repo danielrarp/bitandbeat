@@ -96,12 +96,12 @@ transform:translateY(0);
 }
 /* PRODUCTOS */
 .productos{
-padding:120px 40px;
+padding:40px 40px;
 text-align:center;
 }
 
 .productos h2{
-margin-bottom:40px;
+margin-bottom:20px;
 }
 
 .grid{
