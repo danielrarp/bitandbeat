@@ -32,7 +32,7 @@ Me interesa adquirir la siguiente playera:
 
 Gracias.`;
 
-    const url = `https://wa.me/5630967067?text=${encodeURIComponent(mensaje)}`;
+    const url = `https://wa.me/56?text=${encodeURIComponent(mensaje)}`;
 
     window.open(url, "_blank");
 }
