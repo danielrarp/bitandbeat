@@ -19,15 +19,20 @@ function comprar(nombre, btn){
         return;
     }
 
-    const mensaje = `🔥 Hola! quiero esta playera:
-👕 Modelo: ${nombre}
-📏 Corte: ${corte}
-🎨 Color: ${color}
-📦 Talla: ${talla}
+const mensaje = `Hola, buen día.
 
-¿Está disponible?`;
+Me interesa adquirir la siguiente playera:
 
-    const url = `https://wa.me/TUNUMERO?text=${encodeURIComponent(mensaje)}`;
+• Modelo: ${nombre}
+• Corte: ${corte}
+• Color: ${color}
+• Talla: ${talla}
+
+¿Podrías confirmarme disponibilidad y tiempos de entrega?
+
+Gracias.`;
+
+    const url = `https://wa.me/5630967067?text=${encodeURIComponent(mensaje)}`;
 
     window.open(url, "_blank");
 }
